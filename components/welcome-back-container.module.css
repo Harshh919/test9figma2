@@ -1,0 +1,106 @@
+.signUpFormCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 444px;
+  height: 413px;
+}
+.welcomeBackTo {
+  color: var(--color-black);
+}
+.advizer {
+  background: linear-gradient(
+    85.51deg,
+    #7848ff,
+    rgba(255, 56, 56, 0.64) 66.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.welcomeBackToContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.welcomeBackToContainer {
+  position: absolute;
+  top: 26px;
+  left: 77px;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 291px;
+}
+.emailInput,
+.passwordInput {
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  width: 376px;
+  height: 60px;
+}
+.emailInput {
+  font-weight: 500;
+  top: 0;
+}
+.passwordInput {
+  top: 83px;
+}
+.emailInputParent {
+  position: absolute;
+  top: 139px;
+  left: 34px;
+  width: 376px;
+  height: 143px;
+}
+.registerBtnChild {
+  border: 1px solid var(--color-gainsboro);
+  padding: 0;
+  background-color: var(--color-dodgerblue-200);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl-5);
+  box-sizing: border-box;
+  width: 176px;
+  height: 63px;
+}
+.registerBtn,
+.registerBtnChild,
+.signIn {
+  cursor: pointer;
+  position: absolute;
+}
+.signIn {
+  top: 15px;
+  left: 44px;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.registerBtn {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 317px;
+  left: 134px;
+  width: 176px;
+  height: 63px;
+}
+.registerCard {
+  position: absolute;
+  top: 320px;
+  left: 36px;
+  width: 444px;
+  height: 413px;
+}

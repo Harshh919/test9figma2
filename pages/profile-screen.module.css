@@ -1,0 +1,101 @@
+.groupChild,
+.homeIcon,
+.profileScreenInner {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 1021px;
+}
+.groupChild {
+  top: 0;
+  background-color: var(--color-white);
+  border-right: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+}
+.homeIcon,
+.profileScreenInner {
+  top: 96px;
+}
+.homeIcon {
+  top: 162px;
+  left: 26px;
+  border-radius: var(--br-5xs);
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.navBg {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 1728px;
+  height: 96px;
+}
+.advizerAi,
+.nav,
+.navBg {
+  position: absolute;
+}
+.advizerAi {
+  top: 27px;
+  left: 28px;
+  font-weight: 500;
+  background: linear-gradient(
+    91.34deg,
+    #7848ff,
+    rgba(255, 56, 56, 0.64) 66.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav {
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 96px;
+}
+.profileScreenChild {
+  position: absolute;
+  top: 1037px;
+  left: 26px;
+  width: 48px;
+  height: 48px;
+}
+.profileScreenItem {
+  position: absolute;
+  top: 1026px;
+  left: 17px;
+  border-radius: var(--br-5xs);
+  width: 69px;
+  height: 69px;
+}
+.rounik {
+  color: var(--color-tomato);
+}
+.helloRounik {
+  position: absolute;
+  top: 170px;
+  left: 665px;
+  font-size: var(--font-size-45xl);
+  font-weight: 600;
+}
+.passwordIcon {
+  position: absolute;
+  top: 677px;
+  left: 652px;
+  width: 297px;
+  height: 12px;
+}
+.profileScreen {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}

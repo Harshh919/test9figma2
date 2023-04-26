@@ -1,0 +1,47 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 230px;
+  height: 230px;
+  cursor: pointer;
+}
+.generate {
+  margin: 0;
+}
+.generateNewAdvizeContainer {
+  position: absolute;
+  top: 159px;
+  left: 59px;
+  font-weight: 600;
+}
+.materialSymbolsaddCircleIcon {
+  position: absolute;
+  top: 63px;
+  left: 74px;
+  width: 82px;
+  height: 82px;
+  overflow: hidden;
+}
+.groupParent,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 230px;
+  color: var(--color-black);
+}
+.groupParent {
+  top: 329px;
+  left: 217px;
+  width: 1342px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-roboto);
+}

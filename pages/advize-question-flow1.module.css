@@ -1,0 +1,234 @@
+.navBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 1728px;
+  height: 96px;
+}
+.advizerAi {
+  top: 27px;
+  left: 28px;
+  font-weight: 500;
+  background: linear-gradient(
+    91.34deg,
+    #7848ff,
+    rgba(255, 56, 56, 0.64) 66.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.advizerAi,
+.nav,
+.whatDoYou {
+  position: absolute;
+}
+.nav {
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 96px;
+  font-size: var(--font-size-17xl);
+}
+.whatDoYou {
+  top: 333px;
+  left: 245px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 1074px;
+  height: 58px;
+}
+.advizeQuestionFlowChild,
+.groupChild {
+  position: absolute;
+  top: 969px;
+  left: 1490px;
+}
+.groupChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-tomato);
+  top: 0;
+  left: 121.73px;
+  border-radius: var(--br-base);
+  width: 111.34px;
+  height: 32px;
+}
+.groupItem {
+  border: 1px solid var(--color-tomato);
+  left: 243.46px;
+  box-sizing: border-box;
+}
+.groupInner,
+.groupItem,
+.rectangleButton {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-tomato);
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-base);
+  width: 111.34px;
+  height: 32px;
+}
+.groupInner {
+  border: 1px solid var(--color-tomato);
+  left: 365.2px;
+  box-sizing: border-box;
+}
+.rectangleButton {
+  left: 486.93px;
+}
+.groupChild1,
+.groupChild2,
+.rectangleButton {
+  border: 1px solid var(--color-tomato);
+  box-sizing: border-box;
+}
+.groupChild1 {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-tomato);
+  position: absolute;
+  top: 0;
+  left: 608.66px;
+  border-radius: var(--br-base);
+  width: 111.34px;
+  height: 32px;
+}
+.groupChild2 {
+  left: 730px;
+}
+.groupChild2,
+.groupChild3,
+.groupChild4 {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-tomato);
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-base);
+  width: 111.34px;
+  height: 32px;
+}
+.groupChild3 {
+  border: 1px solid var(--color-tomato);
+  left: 851px;
+  box-sizing: border-box;
+}
+.groupChild4 {
+  border: 0;
+  left: 0;
+}
+.rectangleParent {
+  position: absolute;
+  top: 985px;
+  left: 244px;
+  width: 962.34px;
+  height: 32px;
+}
+.advizeQuestionFlowItem {
+  position: absolute;
+  top: 969px;
+  left: 1319px;
+}
+.advizeQuestionFlowInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(26, 26, 26, 0.5);
+  width: 1728px;
+  height: 1117px;
+}
+.usernameInputChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-19xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 970px;
+  height: 76px;
+}
+.choose {
+  position: absolute;
+  top: 23.27px;
+  left: 45.3px;
+}
+.usernameInputItem {
+  position: absolute;
+  top: 489px;
+  left: 1140px;
+  width: 27px;
+  height: 16px;
+  display: none;
+}
+.rectangleDiv,
+.usernameInput {
+  position: absolute;
+  top: 456px;
+  left: 245px;
+  width: 970px;
+  height: 76px;
+}
+.rectangleDiv {
+  top: 296px;
+  left: 235px;
+  border-radius: 46px;
+  background-color: var(--color-white);
+  width: 1303px;
+  height: 526px;
+}
+.rounik {
+  color: var(--color-tomato);
+}
+.awesomeRounik {
+  position: absolute;
+  top: 372px;
+  left: 327px;
+  font-size: var(--font-size-45xl);
+  font-weight: 600;
+}
+.advized {
+  color: var(--color-blueviolet);
+}
+.youMadeItContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.youMadeItContainer {
+  position: absolute;
+  top: 485px;
+  left: 327px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 1074px;
+}
+.advizeQuestionFlowChild1,
+.groupButton {
+  position: absolute;
+  top: 681px;
+  left: 327px;
+  cursor: pointer;
+}
+.advizeQuestionFlowChild1 {
+  top: 683px;
+  left: 648px;
+}
+.advizeQuestionFlow {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}

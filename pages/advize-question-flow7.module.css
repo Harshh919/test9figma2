@@ -1,0 +1,244 @@
+.advizeQuestionFlowChild,
+.navBg {
+  position: absolute;
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+.advizeQuestionFlowChild {
+  top: 489px;
+  left: 245px;
+  border-radius: 0 0 var(--br-19xl) var(--br-19xl);
+  border: 1px solid var(--color-silver);
+  width: 391px;
+  height: 246px;
+}
+.navBg {
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid var(--color-gainsboro);
+  width: 1728px;
+  height: 96px;
+}
+.advizerAi {
+  position: absolute;
+  top: 27px;
+  left: 28px;
+  font-weight: 500;
+  background: linear-gradient(
+    91.34deg,
+    #7848ff,
+    rgba(255, 56, 56, 0.64) 66.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav,
+.whatIsYour {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 96px;
+  font-size: var(--font-size-17xl);
+}
+.whatIsYour {
+  top: 344px;
+  left: 245px;
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  color: var(--color-gray-400);
+  display: flex;
+  align-items: center;
+  width: 1074px;
+  height: 58px;
+}
+.groupChild {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro);
+  padding: 0;
+  background-color: var(--color-dodgerblue-200);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl-5);
+  box-sizing: border-box;
+  width: 141px;
+  height: 63px;
+}
+.next {
+  position: absolute;
+  top: 15px;
+  left: 43px;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.groupItem,
+.rectangleParent {
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  width: 141px;
+  height: 63px;
+}
+.rectangleParent {
+  border: 0;
+  background-color: transparent;
+  top: 969px;
+  left: 1490px;
+}
+.groupItem {
+  border: 1px solid var(--color-gainsboro);
+  background-color: var(--color-dimgray-200);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl-5);
+  box-sizing: border-box;
+}
+.back {
+  position: absolute;
+  top: 15px;
+  left: 39px;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.chooseParent,
+.rectangleGroup {
+  position: absolute;
+  cursor: pointer;
+}
+.rectangleGroup {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 969px;
+  left: 1319px;
+  width: 141px;
+  height: 63px;
+}
+.chooseParent {
+  top: 456px;
+  left: 245px;
+}
+.andAbove,
+.to21,
+.to30 {
+  position: absolute;
+  top: 553px;
+  left: 283px;
+}
+.andAbove,
+.to30 {
+  top: 617px;
+}
+.andAbove {
+  top: 681px;
+}
+.advizeQuestionFlowItem,
+.lineDiv {
+  position: absolute;
+  top: 600.5px;
+  left: 244.5px;
+  border-top: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 392px;
+  height: 1px;
+}
+.lineDiv {
+  top: 664.5px;
+}
+.groupInner,
+.rectangleDiv {
+  background-color: var(--color-tomato);
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 121.73px;
+  border-radius: var(--br-base);
+  width: 111.34px;
+  height: 32px;
+}
+.rectangleDiv {
+  left: 243.46px;
+  border: 1px solid var(--color-tomato);
+  box-sizing: border-box;
+}
+.groupChild1,
+.groupChild2,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-base);
+  width: 111.34px;
+  height: 32px;
+}
+.groupChild1 {
+  left: 365.2px;
+  background-color: var(--color-tomato);
+  border: 1px solid var(--color-tomato);
+  box-sizing: border-box;
+}
+.groupChild2 {
+  left: 486.93px;
+}
+.groupChild2,
+.groupChild3,
+.groupChild4 {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.groupChild3 {
+  position: absolute;
+  top: 0;
+  left: 608.66px;
+  border-radius: var(--br-base);
+  width: 111.34px;
+  height: 32px;
+}
+.groupChild4 {
+  left: 730px;
+}
+.groupChild4,
+.groupChild5,
+.groupChild6 {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-base);
+  width: 111.34px;
+  height: 32px;
+}
+.groupChild5 {
+  left: 851px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.groupChild6 {
+  left: 0;
+  background-color: var(--color-tomato);
+}
+.rectangleContainer {
+  position: absolute;
+  top: 984px;
+  left: 210px;
+  width: 962.34px;
+  height: 32px;
+}
+.advizeQuestionFlow {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

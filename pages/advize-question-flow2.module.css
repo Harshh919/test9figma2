@@ -1,0 +1,228 @@
+.navBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 1728px;
+  height: 96px;
+}
+.advizerAi {
+  position: absolute;
+  top: 27px;
+  left: 28px;
+  font-weight: 500;
+  background: linear-gradient(
+    91.34deg,
+    #7848ff,
+    rgba(255, 56, 56, 0.64) 66.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav,
+.whatDoYou {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1728px;
+  height: 96px;
+}
+.whatDoYou {
+  top: 333px;
+  left: 245px;
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 1074px;
+  height: 58px;
+}
+.groupChild {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro);
+  padding: 0;
+  background-color: var(--color-dimgray-200);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl-5);
+  box-sizing: border-box;
+  width: 141px;
+  height: 63px;
+}
+.back {
+  position: absolute;
+  top: 15px;
+  left: 39px;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 969px;
+  left: 1319px;
+  width: 141px;
+  height: 63px;
+}
+.usernameInput,
+.usernameInput1,
+.usernameInput2,
+.usernameInput3 {
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: 211px;
+  left: 0;
+  width: 970px;
+  height: 107px;
+}
+.usernameInput1,
+.usernameInput2,
+.usernameInput3 {
+  top: 139px;
+}
+.usernameInput2,
+.usernameInput3 {
+  top: 68px;
+}
+.usernameInput3 {
+  top: 0;
+}
+.groupItem,
+.usernameInputParent {
+  position: absolute;
+  top: 494px;
+  left: 245px;
+  width: 970px;
+  height: 318px;
+}
+.groupItem {
+  top: 0;
+  left: 121.73px;
+  border-radius: var(--br-base);
+  background-color: var(--color-tomato);
+  width: 111.34px;
+  height: 32px;
+}
+.groupInner {
+  left: 243.46px;
+  border: 1px solid var(--color-tomato);
+  box-sizing: border-box;
+}
+.groupChild1,
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-tomato);
+  width: 111.34px;
+  height: 32px;
+}
+.rectangleDiv {
+  left: 365.2px;
+  border: 1px solid var(--color-tomato);
+  box-sizing: border-box;
+}
+.groupChild1 {
+  left: 486.93px;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3 {
+  border: 1px solid var(--color-red);
+  box-sizing: border-box;
+}
+.groupChild2 {
+  position: absolute;
+  top: 0;
+  left: 608.66px;
+  border-radius: var(--br-base);
+  background-color: var(--color-tomato);
+  width: 111.34px;
+  height: 32px;
+}
+.groupChild3 {
+  left: 730px;
+}
+.groupChild3,
+.groupChild4,
+.groupChild5 {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-tomato);
+  width: 111.34px;
+  height: 32px;
+}
+.groupChild4 {
+  left: 851px;
+  border: 1px solid var(--color-red);
+  box-sizing: border-box;
+}
+.groupChild5 {
+  left: 0;
+}
+.rectangleButton,
+.rectangleGroup {
+  position: absolute;
+  top: 984px;
+  left: 210px;
+  width: 962.34px;
+  height: 32px;
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro);
+  padding: 0;
+  background-color: var(--color-mediumslateblue);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl-5);
+  box-sizing: border-box;
+  width: 141px;
+  height: 63px;
+}
+.submit {
+  position: absolute;
+  top: 15px;
+  left: 26px;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 969px;
+  left: 1490px;
+  width: 141px;
+  height: 63px;
+}
+.advizeQuestionFlow {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1117px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}

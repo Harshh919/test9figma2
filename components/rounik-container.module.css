@@ -1,0 +1,63 @@
+.usernameInputChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 341px;
+  height: 60px;
+}
+.rounik {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 109px;
+}
+.usernameInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 341px;
+  height: 60px;
+}
+.rounik1020gmailcom {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-weight: 600;
+}
+.emailInput,
+.passwordIcon,
+.passwordInput {
+  position: absolute;
+  top: 83px;
+  left: 0;
+  width: 341px;
+  height: 60px;
+}
+.passwordIcon,
+.passwordInput {
+  top: 166px;
+}
+.passwordIcon {
+  top: 190px;
+  left: 26px;
+  width: 259px;
+  height: 12px;
+}
+.usernameInputParent {
+  position: absolute;
+  top: 130px;
+  left: 49px;
+  width: 341px;
+  height: 226px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

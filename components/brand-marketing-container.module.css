@@ -1,0 +1,46 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 230px;
+  height: 230px;
+}
+.clothingBrand {
+  margin: 0;
+}
+.clothingBrandMarketingContainer,
+.div {
+  position: absolute;
+  top: 86px;
+  left: 29px;
+}
+.div {
+  top: 195px;
+  left: 115px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 107px;
+  height: 20px;
+}
+.groupWrapper,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 230px;
+}
+.groupWrapper {
+  left: 278px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-roboto);
+}

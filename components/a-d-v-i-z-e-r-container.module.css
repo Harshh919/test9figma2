@@ -1,0 +1,101 @@
+.signUpFormCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 581px;
+  height: 509px;
+}
+.welcomeTo {
+  color: var(--color-black);
+}
+.advizer {
+  background: linear-gradient(
+    91.34deg,
+    #7848ff,
+    rgba(255, 56, 56, 0.64) 66.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.welcomeToAdvizerContainer {
+  position: absolute;
+  top: 35px;
+  left: 118px;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  text-align: left;
+}
+.registerBtnChild {
+  border: 1px solid var(--color-gainsboro);
+  padding: 0;
+  background-color: var(--color-dodgerblue-200);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl-5);
+  box-sizing: border-box;
+  width: 200px;
+  height: 63px;
+}
+.register,
+.registerBtn,
+.registerBtnChild {
+  cursor: pointer;
+  position: absolute;
+}
+.register {
+  top: 15px;
+  left: 48px;
+  font-size: var(--font-size-9xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.registerBtn {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 408px;
+  left: 188px;
+  width: 200px;
+  height: 63px;
+}
+.emailInput,
+.passwordInput,
+.usernameInput {
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 482px;
+  height: 60px;
+}
+.emailInput,
+.passwordInput {
+  top: 83px;
+}
+.passwordInput {
+  top: 166px;
+}
+.registerCard,
+.usernameInputParent {
+  position: absolute;
+  top: 134px;
+  left: 47px;
+  width: 482px;
+  height: 226px;
+}
+.registerCard {
+  top: 319px;
+  left: 574px;
+  width: 581px;
+  height: 509px;
+}
